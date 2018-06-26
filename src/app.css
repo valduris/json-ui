@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to left top, #20c997, #17a2b8);
+}
+
+h1 {
+    color: #28a745;
+}
+
+.container {
+    position: relative;
+    margin: 1em;
+    background: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 0.5em;
+}
+
+#react-mount-node .container .link-save {
+    color: #28a745;
+    position: absolute;
+    right: 2em;
+    top: 1.25em;
+    cursor: pointer;
+    user-select: none;
+}
+
+#react-mount-node .container .link-cancel {
+    color: #DC3547;
+    position: absolute;
+    left: 2em;
+    top: 1.25em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.alert {
+    color: #17a2b8;
+    background-color: #f8fff8;
+    border-color: #d3d9df;
+}
+
+input:required {
+    background-image: radial-gradient(#28a745 100%, transparent 0);
+    background-size: 0.25em;
+    background-position: left;
+    background-repeat: no-repeat;
+}
